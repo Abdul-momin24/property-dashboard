@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
-import ChatAssistant from "./components/ChatAssistant";
+import ChatAssistant from "./components/ChatAssistant.jsx";
 import properties from "./data/properties.json";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/SearchBar.jsx";
 
 import {
   Building2,
@@ -11,9 +11,9 @@ import {
   Clock3,
 } from "lucide-react";
 
-import KPIcard from "./components/KPIcard";
-import TenantFilter from "./components/TenantFilter";
-import CollectionChart from "./components/CollectionChart";
+import KPIcard from "./components/KPIcard.jsx";
+import TenantFilter from "./components/TenantFilter.jsx";
+import CollectionChart from "./components/CollectionChart.jsx";
 
 function App() {
   const [selectedCity, setSelectedCity] =
