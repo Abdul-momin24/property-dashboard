@@ -1,4 +1,4 @@
-function KPIcard({
+function KPICard({
   title,
   value,
   icon,
@@ -27,4 +27,4 @@ function KPIcard({
   );
 }
 
-export default KPIcard;
+export default KPICard;

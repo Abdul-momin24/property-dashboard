@@ -3,7 +3,7 @@ import ChatAssistant from "./components/ChatAssistant.jsx";
 import properties from "./data/properties.json";
 import SearchBar from "./components/SearchBar.jsx";
 
-import KPIcard from "./components/KPICard.jsx";
+import KPICard from "./components/KPICard.jsx";
 import TenantFilter from "./components/TenantFilter.jsx";
 import CollectionChart from "./components/CollectionChart.jsx";
 
@@ -149,7 +149,7 @@ function App() {
 
       {/* KPI CARDS */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 mb-10">
-        <KPIcard
+        <KPICard
           title="Total Properties"
           value={totalProperties}
           icon={
@@ -158,7 +158,7 @@ function App() {
           color="text-white"
         />
 
-        <KPIcard
+        <KPICard
           title="Approved"
           value={approvedProperties}
           icon={
@@ -167,7 +167,7 @@ function App() {
           color="text-green-400"
         />
 
-        <KPIcard
+        <KPICard
           title="Rejected"
           value={rejectedProperties}
           icon={
@@ -176,7 +176,7 @@ function App() {
           color="text-red-400"
         />
 
-        <KPIcard
+        <KPICard
         title="Pending"
         value={pendingProperties}
         icon={
@@ -185,7 +185,7 @@ function App() {
         color="text-orange-400"
         />
 
-        <KPIcard
+        <KPICard
           title="Collection"
           value={`₹${totalCollection.toLocaleString(
             "en-IN"
@@ -197,7 +197,7 @@ function App() {
         />
       </div>
 
-      <KPIcard
+      <KPICard
   title="Approval Rate"
   value={`${approvalRate}%`}
   icon={
