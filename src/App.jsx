@@ -3,6 +3,11 @@ import ChatAssistant from "./components/ChatAssistant.jsx";
 import properties from "./data/properties.json";
 import SearchBar from "./components/SearchBar.jsx";
 
+import KPIcard from "./components/KPICard.jsx";
+import TenantFilter from "./components/TenantFilter.jsx";
+import CollectionChart from "./components/CollectionChart.jsx";
+
+
 import {
   Building2,
   CheckCircle2,
@@ -11,9 +16,6 @@ import {
   Clock3,
 } from "lucide-react";
 
-import KPIcard from "./components/KPIcard.jsx";
-import TenantFilter from "./components/TenantFilter.jsx";
-import CollectionChart from "./components/CollectionChart.jsx";
 
 function App() {
   const [selectedCity, setSelectedCity] =
